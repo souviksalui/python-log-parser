@@ -36,17 +36,14 @@ Clean Output (Structured DataFrame)
 ## 💻 Usage
 Clone the repository:
 
-bash
 git clone https://github.com/souviksalui/python-log-parser.git
 Install requirements:
 
-bash
 pip install pandas
 pip install matplotlib
 
 Run the parser:
 
-bash
 python log_parser.py
 
 ### 🧠 What I Learned
