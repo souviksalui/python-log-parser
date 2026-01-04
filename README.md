@@ -13,6 +13,7 @@ This project simulates a real-world ELT (Extract, Load, Transform) task where lo
 - **Data Cleaning:** Automatically converts string timestamps to Python `datetime` objects and numeric fields to integers.
 - **Error Handling:** Gracefully skips malformed or corrupted log lines without crashing.
 - **Analysis Ready:** Outputs a clean Pandas DataFrame ready for visualization or SQL insertion.
+- **Visualization Ready:** Displays a clean visualization of api status records.
 
 ## 🛠️ Tech Stack
 - **Language:** Python 3.x
@@ -20,6 +21,7 @@ This project simulates a real-world ELT (Extract, Load, Transform) task where lo
   - `pandas` (Data manipulation)
   - `re` (Pattern matching)
   - `datetime` (Time series handling)
+  - `matplotlib` (api status analysis)
 
 ## 📋 Input vs. Output
 
@@ -35,7 +37,7 @@ Clean Output (Structured DataFrame)
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/log-detective.git
+git clone https://github.com/souviksalui/log-detective.git
 Install requirements:
 
 bash
