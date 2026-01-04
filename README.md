@@ -37,7 +37,7 @@ Clean Output (Structured DataFrame)
 Clone the repository:
 
 bash
-git clone https://github.com/souviksalui/log-detective.git
+git clone https://github.com/souviksalui/python-log-parser.git
 Install requirements:
 
 bash
