@@ -4,9 +4,11 @@ log-detective of api status code, built a robust Python ETL script to parse raw 
 # 🕵️ Log Detective: Python Regex Parser
 
 ## 📌 Overview
-**Log Detective** is a Python-based data engineering mini-project designed to transform unstructured server logs into structured, analytical data. It utilizes advanced **Regular Expressions (Regex)** to parse raw text and **Pandas** for data cleaning and transformation.
+**Log Detective** is a Python-based data engineering mini-project designed to transform unstructured server logs into structured, analytical data. It utilizes advanced **Regular Expressions (Regex)** to parse raw text, **Pandas** for data cleaning and transformation and generates a **Pandas** bar chart to flag error spikes.
 
 This project simulates a real-world ELT (Extract, Load, Transform) task where log files must be prepared for security auditing or traffic analysis.
+
+By converting "200" and "404" strings into a color-coded chart, I turned a 1MB text file into a 5-second health check for any backend team. 📊
 
 ## 🚀 Features
 - **Robust Parsing:** Uses Python `re` module with Named Capture Groups to handle complex log string formats.
