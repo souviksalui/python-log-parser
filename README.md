@@ -43,6 +43,7 @@ git clone https://github.com/souviksalui/python-log-parser.git
 Install requirements:
 
 pip install pandas
+
 pip install matplotlib
 
 Run the parser:
