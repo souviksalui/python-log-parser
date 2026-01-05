@@ -39,6 +39,7 @@ Clean Output (Structured DataFrame)
 Clone the repository:
 
 git clone https://github.com/souviksalui/python-log-parser.git
+
 Install requirements:
 
 pip install pandas
